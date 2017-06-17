@@ -10,6 +10,15 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+  color: blue;
+  background:#e74c3c;
+  opacity: 10;ackground:#000000;
+  opacity: 10;
+  }
+  .collapse navbar-collapse{
+    color:red;
+    background:#000000;
+    opacity:10;
   }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY

@@ -3,12 +3,17 @@
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+ 
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #404040;
+  color:  #404040;
+  background-color: #ff7b7b;
+  background:url("brige.jpg"); 
+  
 }
+
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -23,7 +28,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
 }
 a {
   color: #404040;
@@ -47,7 +52,8 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  position: absolute;
+  position: fixed;
+  background-color: red;
   top: 0;
   left: 0;
   width: 100%;
@@ -56,6 +62,7 @@ hr.small {
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  color: #404040;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -69,7 +76,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color:#273849;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -77,7 +84,7 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+     color:#2c3e50;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -114,14 +121,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color:  #404040;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #404040;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -145,8 +152,13 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
-  color: white;
+  padding: 100px 0 100px;
+  color: #e74c3c;
+  font-size: 275px;
+  font-weight: bold; 
+  letter-spacing: 10px; 
+  line-height: 20;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -170,7 +182,7 @@ hr.small {
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
